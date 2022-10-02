@@ -1,4 +1,4 @@
 
-with open('~/Desktop/callingcard.twt', 'x') as file:
+with open('~/Desktop/callingcard.txt', 'x') as file:
     file.write('CALLING CARD')
 
